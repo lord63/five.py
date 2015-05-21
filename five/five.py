@@ -25,11 +25,16 @@ class Five(object):
         return 'V'
 
     def convert_to(self, num):
+        """convert to a number your specified.
+
+        If you need other numbers I'd strongly suggest you call
+        this function when your app starts up and cache the result."""
         one_fifth_of_five = self.five() / self.five()
         while num < one_fifth_of_five:
             num += one_fifth_of_five
         return num
 
+    # Start of kinds of five in many languages, sorted by alphabetic.
     def arabic(self):
         return 'خمسة'
 
@@ -185,6 +190,7 @@ class Five(object):
 
     def welsh(self):
         return 'pump'
+    # End of kinds of five in many languages.
 
     def morse_code(self):
         return '....-'
@@ -202,6 +208,7 @@ class Five(object):
         return -5
 
     def loud(self, lang='englist'):
+        """Speak loudly! FIVE! Use upper case!"""
         lang_method = getattr(self, lang, None)
         if lang_method:
             return lang_method().upper()
@@ -229,6 +236,8 @@ class Five(object):
         return ['Jackie', 'Tito', 'Jermaine', 'Marlon', 'Michael']
 
     def rotate(self, word):
+        """Replaced by a letter 5 right shift.
+         e.g. a->f, b->g, . -> ."""
         lowercase_queue = deque(string.lowercase)
         lowercase_queue.rotate(-5)
         uppercase_queue = deque(string.uppercase)
