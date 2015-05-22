@@ -23,16 +23,6 @@ class Five(object):
     def roman(self):
         return 'V'
 
-    def convert_to(self, num):
-        """convert to a number your specified.
-
-        If you need other numbers I'd strongly suggest you call
-        this function when your app starts up and cache the result."""
-        one_fifth_of_five = self.five() / self.five()
-        while num < one_fifth_of_five:
-            num += one_fifth_of_five
-        return num
-
     # Start of kinds of five in many languages, sorted by alphabetic.
     def arabic(self):
         return 'خمسة'

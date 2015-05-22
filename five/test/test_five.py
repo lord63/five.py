@@ -18,10 +18,6 @@ def test_five():
     assert five.down_low() == '₅'
     assert five.roman() == 'V'
 
-    assert five.convert_to(5) == 5
-    assert five.convert_to(3) == 3
-    assert five.convert_to(665456) == 665456
-
     assert five.arabic() == 'خمسة'
     assert five.azerbaijani() == 'beş'
     assert five.basque() == 'bost'
