@@ -5,7 +5,6 @@ from __future__ import absolute_import, unicode_literals, division
 
 import time
 import string
-from collections import deque
 
 
 class Five(object):
@@ -238,14 +237,12 @@ class Five(object):
     def rotate(self, word):
         """Replaced by a letter 5 right shift.
          e.g. a->f, b->g, . -> ."""
-        lowercase_queue = deque(string.lowercase)
-        lowercase_queue.rotate(-5)
-        uppercase_queue = deque(string.uppercase)
-        uppercase_queue.rotate(-5)
-        lowercase_queue.extend(uppercase_queue)
-        table = string.maketrans(string.letters,
-                                 ''.join(list(lowercase_queue)))
-        return word.translate(table)
+        processed = ''.join([i[5:] + i[:5] for i in [string.digits,
+                                                     string.lowercase,
+                                                     string.uppercase]])
+        table = string.maketrans(string.printable[:62],
+                                 ''.join(list(processed)))
+        return str(word).translate(table)
 
     def oclock(self):
         return '🕔'
