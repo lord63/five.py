@@ -11,8 +11,14 @@ import pytest
 
 def test_five():
     five = Five()
-    assert five.five() == 5
-    assert five.five() != 6
+
+    assert five() == 5
+    assert five() != 6
+    assert five() * five() == 25
+    assert five() + five() == 10
+    assert five() / five() == 1
+    assert five() - five() == 0
+    assert five() / five() * five() == five()
 
     assert five.up_high() == '⁵'
     assert five.down_low() == '₅'
@@ -96,9 +102,3 @@ def test_five():
     assert five.rotate('$_$ -,- @.@?') == '$_$ -,- @.@?'
 
     assert five.oclock() == '🕔'
-
-    assert five() * five() == 25
-    assert five() + five() == 10
-    assert five() / five() == 1
-    assert five() - five() == 0
-    assert five() / five() * five() == five()
