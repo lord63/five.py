@@ -152,11 +152,11 @@ All the glories should belong to [@jackdcrawford][], I just port it to python :)
 
 MIT.
 
-[1]: http://img.shields.io/pypi/v/five.svg
+[1]: http://img.shields.io/pypi/v/five.py.svg
 [2]: https://pypi.python.org/pypi/five
-[3]: https://travis-ci.org/lord63/five.svg
-[4]: https://travis-ci.org/lord63/five
-[5]: https://coveralls.io/repos/lord63/five/badge.svg
-[6]: https://coveralls.io/r/lord63/five
+[3]: https://travis-ci.org/lord63/five.py.svg
+[4]: https://travis-ci.org/lord63/five.py
+[5]: https://coveralls.io/repos/lord63/five.py/badge.svg
+[6]: https://coveralls.io/r/lord63/five.py
 [five]: https://github.com/jackdcrawford/five
 [@jackdcrawford]: https://github.com/jackdcrawford
