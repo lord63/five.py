@@ -137,6 +137,13 @@ five.rotate("five.py")  #knaj.ud
 five.oclock()  # '🕔'
 ```
 
+## Development
+
+run the tests:
+
+    $ pip install -r dev-requirements.txt
+    $ invoke test
+
 ## Credits
 
 All the glories should belong to [@jackdcrawford][], I just port it to python :)
