@@ -8,22 +8,47 @@ import string
 
 
 class Five(object):
+    # Basic five.
     def five(self, *args):
         return 5
 
     def __call__(self):
         return self.five()
 
+    # Start of "different sorts of five".
     def up_high(self):
         return '⁵'
 
     def down_low(self):
         return '₅'
 
+    def too_slow(self):
+        time.sleep(0.555)
+        return self.five()
+
     def roman(self):
         return 'V'
 
-    # Start of kinds of five in many languages, sorted by alphabetic.
+    def morse_code(self):
+        return '....-'
+
+    def negative(self):
+        return -5
+
+    def loud(self, lang='englist'):
+        """Speak loudly! FIVE! Use upper case!"""
+        lang_method = getattr(self, lang, None)
+        if lang_method:
+            return lang_method().upper()
+        else:
+            return self.english().upper()
+
+    def smooth(self):
+        return 'S'
+    # End of "different sorts of five"
+
+    # Start of "kinds of five in many languages",
+    # sorted by alphabetic.
     def arabic(self):
         return 'خمسة'
 
@@ -179,11 +204,9 @@ class Five(object):
 
     def welsh(self):
         return 'pump'
-    # End of kinds of five in many languages.
+    # End of "kinds of five in many languages".
 
-    def morse_code(self):
-        return '....-'
-
+    # Start of "different radices of five".
     def binary(self):
         return '101'
 
@@ -192,37 +215,24 @@ class Five(object):
 
     def hex(self):
         return '5'
+    # End of "different radices of five".
 
-    def negative(self):
-        return -5
-
-    def loud(self, lang='englist'):
-        """Speak loudly! FIVE! Use upper case!"""
-        lang_method = getattr(self, lang, None)
-        if lang_method:
-            return lang_method().upper()
-        else:
-            return self.english().upper()
-
-    def smooth(self):
-        return 'S'
-
-    def too_slow(self):
-        time.sleep(0.555)
-        return self.five()
-
+    # Start of "map and reduce".
     def map(self, seq):
         return map(self.five, seq)
 
     def reduce(self, seq):
         return reduce(self.five, seq)
+    # End of "map and reduce".
 
+    # Start of "novelty five".
     def fab(self):
         return ['Juwan Howard', 'Ray Jackson', 'Jimmy King', 'Jalen Rose',
                 'Chris Webber']
 
     def jackson(self):
         return ['Jackie', 'Tito', 'Jermaine', 'Marlon', 'Michael']
+    # End of "novelty five".
 
     def rotate(self, word):
         """Replaced by a letter 5 right shift.
