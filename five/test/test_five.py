@@ -6,7 +6,7 @@ from __future__ import absolute_import, unicode_literals, division
 import string
 from unittest import TestCase
 
-from five.five import Five
+from five import Five
 import pytest
 
 

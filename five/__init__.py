@@ -11,9 +11,11 @@
     :license: MIT, see LICENSE for more details.
 """
 
+from .five import Five
+
 
 __title__ = "five"
-__version__ = "0.1.0"
+__version__ = "0.1.2"
 __author__ = "lord63"
 __license__ = "MIT"
 __copyright__ = "Copyright 2015 lord63"

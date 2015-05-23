@@ -1,8 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-from __future__ import absolute_import, unicode_literals
-
 from setuptools import setup
 
 import five
@@ -21,7 +19,7 @@ setup(
     version=five.__version__,
     description='Gives you five. A library to overcomplicate `5`',
     long_description=long_description,
-    url='http://github.com/lord63/five',
+    url='http://github.com/lord63/five.py',
     author='lord63',
     author_email='lord63.j@gmail.com',
     license='MIT',
