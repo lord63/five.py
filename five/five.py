@@ -5,7 +5,7 @@ from __future__ import absolute_import, unicode_literals, division
 
 import time
 import string
-
+from functools import reduce
 
 class Five(object):
     # Basic five.
@@ -219,7 +219,7 @@ class Five(object):
 
     # Start of "map and reduce".
     def map(self, seq):
-        return map(self.five, seq)
+        return list(map(self.five, seq))
 
     def reduce(self, seq):
         return reduce(self.five, seq)
@@ -237,12 +237,17 @@ class Five(object):
     def rotate(self, word):
         """Replaced by a letter 5 right shift.
          e.g. a->f, b->g, . -> ."""
-        processed = ''.join([i[5:] + i[:5] for i in [string.digits,
-                                                     string.lowercase,
-                                                     string.uppercase]])
-        table = string.maketrans(string.printable[:62],
-                                 ''.join(list(processed)))
-        return str(word).translate(table)
+        before = string.printable[:62]
+        after = ''.join([i[5:] + i[:5] for i in [string.digits,
+                                                 string.ascii_lowercase,
+                                                 string.ascii_uppercase]])
+        word = list(word)
+        for position, char in enumerate(word):
+            if char in before:
+                word[position] = after[before.index(char)]
+            else:
+                pass
+        return ''.join(word)
 
     def oclock(self):
         return '🕔'

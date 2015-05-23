@@ -107,9 +107,9 @@ class TestFive(TestCase):
 
     def test_rotation_of_five(self):
         assert self.five.rotate(string.digits) == '5678901234'
-        assert self.five.rotate(string.lowercase) == (
+        assert self.five.rotate(string.ascii_lowercase) == (
             'fghijklmnopqrstuvwxyzabcde')
-        assert self.five.rotate(string.uppercase) == (
+        assert self.five.rotate(string.ascii_uppercase) == (
             'FGHIJKLMNOPQRSTUVWXYZABCDE')
         assert self.five.rotate('$_$ -,- @.@?') == '$_$ -,- @.@?'
 
