@@ -241,13 +241,9 @@ class Five(object):
         after = ''.join([i[5:] + i[:5] for i in [string.digits,
                                                  string.ascii_lowercase,
                                                  string.ascii_uppercase]])
-        word = list(word)
-        for position, char in enumerate(word):
-            if char in before:
-                word[position] = after[before.index(char)]
-            else:
-                pass
-        return ''.join(word)
+        table = dict(zip(before, after))
+        processed_word = [table[i] if i in before else i for i in word]
+        return ''.join(processed_word)
 
     def oclock(self):
         return '🕔'
