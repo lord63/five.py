@@ -28,13 +28,6 @@ five() / five()  # 1
 five() - five()  # 0
 five.pow(3)      # 125
 five.sqrt()      # 2.23606797749979
-five.figlet()    #   _____
-                    | ____|
-                    | |__
-                    |___ \
-                     ___) |
-                    |____/
-five.stars()  # *****
 ```
 
 ### Different sorts of 5
@@ -48,6 +41,13 @@ five.negative()  # -5
 five.loud()  # FIVE
 five.loud('piglatin')  # IVEFAY
 five.smooth()  # S
+five.figlet()  #   _____
+                  | ____|
+                  | |__
+                  |___ \
+                   ___) |
+                  |____/
+five.stars()  # *****
 ```
 
 ### 5 goes multilingual

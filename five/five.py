@@ -18,6 +18,7 @@ class Five(object):
 
     def sqrt(self):
         return math.sqrt(5)
+    # End of basic five.
 
     def __call__(self):
         return self.five()
