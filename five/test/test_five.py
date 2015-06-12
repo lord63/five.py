@@ -40,6 +40,7 @@ class TestFive(TestCase):
         assert self.five.smooth() == 'S'
         assert self.five.figlet() == (' _____\n| ____|\n| |__\n|___ '
                                       '\\\n ___) | \n|____/')
+        assert self.five.stars() == '*****'
 
     def test_multilingual_five(self):
         assert self.five.arabic() == 'خمسة'

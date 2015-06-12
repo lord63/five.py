@@ -34,6 +34,7 @@ five.figlet()    #   _____
                     |___ \
                      ___) |
                     |____/
+five.stars()  # *****
 ```
 
 ### Different sorts of 5
