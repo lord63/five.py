@@ -22,21 +22,11 @@ five = Five()
 ### Basic 5
 ```python
 five()  # 5
-```
-
-### Addition
-```python
 five() + five()  # 10
-```
-
-### Multiplication
-```python
 five() * five()  # 25
-```
-
-### Division
-```python
 five() / five()  # 1
+five() - five()  # 0
+five.pow(3)      # 125
 ```
 
 ### Different sorts of 5

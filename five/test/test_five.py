@@ -24,6 +24,7 @@ class TestFive(TestCase):
         assert self.five() / self.five() == 1
         assert self.five() - self.five() == 0
         assert self.five() / self.five() * self.five() == self.five()
+        assert self.five.pow(2) == 25
 
     def test_different_sorts_of_five(self):
         assert self.five.up_high() == '⁵'

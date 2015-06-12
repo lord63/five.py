@@ -12,6 +12,9 @@ class Five(object):
     def five(self, *args):
         return 5
 
+    def pow(self, num):
+        return pow(5, num)
+
     def __call__(self):
         return self.five()
 
