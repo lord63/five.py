@@ -3,6 +3,7 @@
 
 from __future__ import absolute_import, unicode_literals, division
 
+import math
 import string
 from unittest import TestCase
 
@@ -25,6 +26,7 @@ class TestFive(TestCase):
         assert self.five() - self.five() == 0
         assert self.five() / self.five() * self.five() == self.five()
         assert self.five.pow(2) == 25
+        assert self.five.sqrt() == math.sqrt(5)
 
     def test_different_sorts_of_five(self):
         assert self.five.up_high() == '⁵'

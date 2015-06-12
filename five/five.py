@@ -3,6 +3,7 @@
 
 from __future__ import absolute_import, unicode_literals, division
 
+import math
 import time
 import string
 from functools import reduce
@@ -13,7 +14,10 @@ class Five(object):
         return 5
 
     def pow(self, num):
-        return pow(5, num)
+        return math.pow(5, num)
+
+    def sqrt(self):
+        return math.sqrt(5)
 
     def __call__(self):
         return self.five()

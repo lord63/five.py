@@ -27,6 +27,7 @@ five() * five()  # 25
 five() / five()  # 1
 five() - five()  # 0
 five.pow(3)      # 125
+five.sqrt()      # 2.23606797749979
 ```
 
 ### Different sorts of 5
