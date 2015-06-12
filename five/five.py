@@ -118,6 +118,9 @@ class Five(object):
     def hungarian(self):
         return 'öt'
 
+    def icelandic(self):
+        return 'fimm'
+
     def indonesian(self):
         return 'lima'
 

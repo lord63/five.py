@@ -60,6 +60,7 @@ class TestFive(TestCase):
         assert self.five.hebrew() == 'חמש'
         assert self.five.hindi() == 'पांच'
         assert self.five.hungarian() == 'öt'
+        assert self.five.icelandic() == 'fimm'
         assert self.five.indonesian() == 'lima'
         assert self.five.irish() == 'cúig'
         assert self.five.italian() == 'cinque'
