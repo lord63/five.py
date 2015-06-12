@@ -52,6 +52,9 @@ class Five(object):
 
     def smooth(self):
         return 'S'
+
+    def figlet(self):
+        return ' _____\n| ____|\n| |__\n|___ \\\n ___) | \n|____/'
     # End of "different sorts of five"
 
     # Start of "kinds of five in many languages",

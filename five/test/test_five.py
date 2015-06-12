@@ -38,6 +38,8 @@ class TestFive(TestCase):
         assert self.five.loud() == 'FIVE'
         assert self.five.loud('piglatin') == 'IVEFAY'
         assert self.five.smooth() == 'S'
+        assert self.five.figlet() == (' _____\n| ____|\n| |__\n|___ '
+                                      '\\\n ___) | \n|____/')
 
     def test_multilingual_five(self):
         assert self.five.arabic() == 'خمسة'
