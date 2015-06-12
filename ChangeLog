@@ -1,2 +1,10 @@
+2015.06.12 v0.2.0
+- add more features:
+    - five.icelandic()
+    - five.pow()
+    - five.sqrt()
+    - five.figlet()
+    - five.stars()
+
 2015.05.23 v0.1.2
 - initial port of the original javascript `five`.
