@@ -81,6 +81,7 @@ five.basque()  # bost
 five.belarusian  # пяць
 five.bosnian()  # pet
 five.bulgarian()  # пет
+five.canadian()  # five eh
 five.catalan()  # cinc
 five.chinese()  # 五
 five.choctaw()  # tahlapi
@@ -109,6 +110,7 @@ five.korean()  # 오
 five.latin()  # quinque
 five.latvian()  # pieci
 five.lithuanian()  # penki
+five.lojban()  # mu
 five.manx()  # queig
 five.mongolian()  # таван
 five.norwegian()  # fem
@@ -123,6 +125,7 @@ five.slovakian()  # päť
 five.slovenian()  # pet
 five.spanish()  # cinco
 five.swedish()  # fem
+five.tagalog()  # lima
 five.tamil()  # ஐந்து
 five.telugu()  # ఐదు
 five.thai()  # ห้า

@@ -103,6 +103,9 @@ class Five(object):
     def bulgarian(self):
         return 'пет'
 
+    def canadian(self):
+        return 'five eh'
+
     def catalan(self):
         return 'cinc'
 
@@ -187,6 +190,9 @@ class Five(object):
     def lithuanian(self):
         return 'penki'
 
+    def lojban(self):
+        return 'mu'
+
     def manx(self):
         return 'queig'
 
@@ -228,6 +234,9 @@ class Five(object):
 
     def swedish(self):
         return 'fem'
+
+    def tagalog(self):
+        return 'lima'
 
     def tamil(self):
         return 'ஐந்து'
