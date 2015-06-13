@@ -121,6 +121,9 @@ class Five(object):
     def czech(self):
         return 'pět'
 
+    def danish(self):
+        return 'fem'
+
     def dovah(self):
         return 'hen'
 
@@ -214,6 +217,9 @@ class Five(object):
     def portuguese(self):
         return 'cinco'
 
+    def punjabi(self):
+        return 'ਪੰਜ'
+
     def romanian(self):
         return 'cinci'
 
@@ -252,6 +258,9 @@ class Five(object):
 
     def ukrainian(self):
         return 'п’ять'
+
+    def vietnamese(self):
+        return 'năm'
 
     def welsh(self):
         return 'pump'

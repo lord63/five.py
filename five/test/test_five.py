@@ -64,6 +64,7 @@ class TestFive(TestCase):
         assert self.five.choctaw() == 'tahlapi'
         assert self.five.croatian() == 'pet'
         assert self.five.czech() == 'pět'
+        assert self.five.danish() == 'fem'
         assert self.five.dovah() == 'hen'
         assert self.five.dutch() == 'vijf'
         assert self.five.elvish() == 'lempe'
@@ -95,6 +96,7 @@ class TestFive(TestCase):
         assert self.five.piglatin() == 'ivefay'
         assert self.five.polish() == 'pięć'
         assert self.five.portuguese() == 'cinco'
+        assert self.five.punjabi() == 'ਪੰਜ'
         assert self.five.romanian() == 'cinci'
         assert self.five.russian() == 'пять'
         assert self.five.serbian() == 'pet'
@@ -108,6 +110,7 @@ class TestFive(TestCase):
         assert self.five.turkish() == 'beş'
         assert self.five.thai() == 'ห้า'
         assert self.five.ukrainian() == 'п’ять'
+        assert self.five.vietnamese() == 'năm'
         assert self.five.welsh() == 'pump'
 
     def test_redix_of_five(self):

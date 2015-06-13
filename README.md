@@ -87,6 +87,7 @@ five.chinese()  # 五
 five.choctaw()  # tahlapi
 five.croatian()  # pet
 five.czech()  # pět
+five.danish()  # fem
 five.dovah()  # hen
 five.dutch()  # vijf
 five.elvish()  # lempe
@@ -118,6 +119,7 @@ five.persian()  # پنج
 five.piglatin()  # ivefay
 five.polish()  # pięć
 five.portuguese()  # cinco
+five.punjabi()  # ਪੰਜ
 five.romanian()  # cinci
 five.russian()  # пять
 five.serbian()  # pet
@@ -131,6 +133,7 @@ five.telugu()  # ఐదు
 five.thai()  # ห้า
 five.turkish()  # beş
 five.ukrainian()  # п’ять
+five.vietnamese()  # năm
 five.welsh()  # pump
 ```
 
