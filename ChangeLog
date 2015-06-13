@@ -1,3 +1,22 @@
+2015.06.13 v0.3.0
+- add more funny staff
+    - five.afrikaans()
+    - five.bool()
+    - five.canadian()
+    - five.danish()
+    - five.elements()
+    - five.facotrial()
+    - five.famous_five()
+    - five.fibonacci()
+    - five.lojban()
+    - five.manx()
+    - five.punjabi()
+    - five.senses()
+    - five.tagalog()
+    - fie.urdu()
+    - five.vietnamese()
+    - five.xhosa()
+
 2015.06.12 v0.2.0
 - add more features:
     - five.icelandic()
