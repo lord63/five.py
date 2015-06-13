@@ -30,6 +30,20 @@ five.pow(3)      # 125
 five.sqrt()      # 2.23606797749979
 ```
 
+### Counting is simple
+```python
+five() + five()  # 10
+five() + five() - five() / five()  # 9
+five() + (five() + five() + five()) / five()  # 8
+five() + (five() + five()) / five()  # 7
+five() + five() / five()  # 6
+five()  # 5
+five() - five() / five()  # 4
+five() - (five() + five()) / five()  # 3
+(five() + five()) / five()  # 2
+five() / five()  # 1
+```
+
 ### Math
 ```python
 five.fibonacci()  # 5
