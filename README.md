@@ -175,7 +175,7 @@ five.oclock()  # '🕔'
 run the tests:
 
     $ pip install -r dev-requirements.txt
-    $ invoke test
+    $ make test
 
 ## Credits
 

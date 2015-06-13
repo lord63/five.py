@@ -8,6 +8,7 @@ import time
 import string
 from functools import reduce
 
+
 class Five(object):
     # Start of "basic five'.
     def five(self, *args):
