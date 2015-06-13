@@ -28,6 +28,10 @@ class TestFive(TestCase):
         assert self.five.pow(2) == 25
         assert self.five.sqrt() == math.sqrt(5)
 
+    def test_math(self):
+        assert self.five.fibonacci() == 5
+        assert self.five.factorial() == 120
+
     def test_different_sorts_of_five(self):
         assert self.five.up_high() == '⁵'
         assert self.five.down_low() == '₅'
@@ -41,6 +45,7 @@ class TestFive(TestCase):
         assert self.five.figlet() == (' _____\n| ____|\n| |__\n|___ '
                                       '\\\n ___) | \n|____/')
         assert self.five.stars() == '*****'
+        assert self.five.bool() == True
 
     def test_multilingual_five(self):
         assert self.five.arabic() == 'خمسة'

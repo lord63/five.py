@@ -9,7 +9,7 @@ import string
 from functools import reduce
 
 class Five(object):
-    # Basic five.
+    # Start of "basic five'.
     def five(self, *args):
         return 5
 
@@ -18,7 +18,17 @@ class Five(object):
 
     def sqrt(self):
         return math.sqrt(5)
-    # End of basic five.
+    # End of "basic five".
+
+    # Start of "math".
+    def fibonacci(self):
+        "The fifth num in the fibonacci sequence."
+        return 5
+
+    def factorial(self):
+        "The factorial of five: 5!"
+        return 120
+    # End of "math".
 
     def __call__(self):
         return self.five()
@@ -59,6 +69,10 @@ class Five(object):
 
     def stars(self):
         return '*****'
+
+    def bool(self):
+        """Five should be true."""
+        return True if 5 else False
     # End of "different sorts of five"
 
     # Start of "kinds of five in many languages",

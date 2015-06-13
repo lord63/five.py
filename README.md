@@ -30,6 +30,12 @@ five.pow(3)      # 125
 five.sqrt()      # 2.23606797749979
 ```
 
+### Math
+```python
+five.fibonacci()  # 5
+five.factorial()  # 120
+```
+
 ### Different sorts of 5
 ```python
 five.up_high()  # ⁵
@@ -48,6 +54,7 @@ five.figlet()  #   _____
                    ___) |
                   |____/
 five.stars()  # *****
+five.bool()   # True
 ```
 
 ### 5 goes multilingual
