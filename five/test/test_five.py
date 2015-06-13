@@ -46,6 +46,8 @@ class TestFive(TestCase):
                                       '\\\n ___) | \n|____/')
         assert self.five.stars() == '*****'
         assert self.five.bool() == True
+        assert self.five.elements() == ["Metal", "Wood", "Water", "Fire",
+                                        "Earth"]
 
     def test_multilingual_five(self):
         assert self.five.arabic() == 'خمسة'

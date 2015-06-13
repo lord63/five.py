@@ -73,6 +73,10 @@ class Five(object):
     def bool(self):
         """Five should be true."""
         return True if 5 else False
+
+    def elements(self):
+        """The five basic elements on earth."""
+        return ["Metal", "Wood", "Water", "Fire", "Earth"]
     # End of "different sorts of five"
 
     # Start of "kinds of five in many languages",
