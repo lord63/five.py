@@ -52,6 +52,7 @@ class TestFive(TestCase):
                                       "Touch"]
 
     def test_multilingual_five(self):
+        assert self.five.afrikaans() == 'vyf'
         assert self.five.arabic() == 'خمسة'
         assert self.five.azerbaijani() == 'beş'
         assert self.five.basque() == 'bost'
@@ -109,7 +110,9 @@ class TestFive(TestCase):
         assert self.five.telugu() == 'ఐదు'
         assert self.five.turkish() == 'beş'
         assert self.five.thai() == 'ห้า'
+        assert self.five.xhosa() == 'zintlanu'
         assert self.five.ukrainian() == 'п’ять'
+        assert self.five.urdu() == 'پانچ'
         assert self.five.vietnamese() == 'năm'
         assert self.five.welsh() == 'pump'
 

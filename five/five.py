@@ -85,6 +85,9 @@ class Five(object):
 
     # Start of "kinds of five in many languages",
     # sorted by alphabetic.
+    def afrikaans(self):
+        return 'vyf'
+
     def arabic(self):
         return 'خمسة'
 
@@ -258,6 +261,12 @@ class Five(object):
 
     def ukrainian(self):
         return 'п’ять'
+
+    def xhosa(self):
+        return 'zintlanu'
+
+    def urdu(self):
+        return 'پانچ'
 
     def vietnamese(self):
         return 'năm'

@@ -75,6 +75,7 @@ five.senses()  # ["Sight", "Hearing", "Taste", "Smell", "Touch"]
 
 ### 5 goes multilingual
 ```python
+five.afrikaans()  # vyf
 five.arabic()  # خمسة
 five.azerbaijani()  # beş
 five.basque()  # bost
@@ -132,7 +133,9 @@ five.tamil()  # ஐந்து
 five.telugu()  # ఐదు
 five.thai()  # ห้า
 five.turkish()  # beş
+five.xhosa()  # zintlanu
 five.ukrainian()  # п’ять
+five.urdu()  # پانچ
 five.vietnamese()  # năm
 five.welsh()  # pump
 ```
