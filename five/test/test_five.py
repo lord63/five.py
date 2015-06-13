@@ -86,6 +86,7 @@ class TestFive(TestCase):
         assert self.five.latin() == 'quinque'
         assert self.five.latvian() == 'pieci'
         assert self.five.lithuanian() == 'penki'
+        assert self.five.manx() == 'queig'
         assert self.five.mongolian() == 'таван'
         assert self.five.norwegian() == 'fem'
         assert self.five.persian() == 'پنج'
@@ -120,6 +121,8 @@ class TestFive(TestCase):
                                        'Michael']
         assert self.five.fab() == ['Juwan Howard', 'Ray Jackson', 'Jimmy King',
                                    'Jalen Rose', 'Chris Webber']
+        assert self.five.famous_five() == ['Julian', 'Dick', 'Anne', 'George',
+                                           'Timmy']
 
     def test_rotation_of_five(self):
         assert self.five.rotate(string.digits) == '5678901234'

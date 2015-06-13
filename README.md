@@ -109,6 +109,7 @@ five.korean()  # 오
 five.latin()  # quinque
 five.latvian()  # pieci
 five.lithuanian()  # penki
+five.manx()  # queig
 five.mongolian()  # таван
 five.norwegian()  # fem
 five.persian()  # پنج
@@ -147,6 +148,7 @@ five.reduce([1, 2, 3])  # 5
 ```python
 five.fab()  # ['Juwan Howard','Ray Jackson','Jimmy King','Jalen Rose','Chris Webber']
 five.jackson()  # ['Jackie','Tito','Jermaine','Marlon','Michael']
+five.famous_five()  # ['Julian', 'Dick', 'Anne', 'George', 'Timmy']
 ```
 
 ### Rotation

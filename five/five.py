@@ -187,6 +187,9 @@ class Five(object):
     def lithuanian(self):
         return 'penki'
 
+    def manx(self):
+        return 'queig'
+
     def mongolian(self):
         return 'таван'
 
@@ -271,6 +274,11 @@ class Five(object):
 
     def jackson(self):
         return ['Jackie', 'Tito', 'Jermaine', 'Marlon', 'Michael']
+
+    def famous_five(self):
+        """The Famous Five is the name of a series of children's
+        adventure novels by English author Enid Blyton."""
+        return ['Julian', 'Dick', 'Anne', 'George', 'Timmy']
     # End of "novelty five".
 
     def rotate(self, word):
