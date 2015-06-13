@@ -56,6 +56,7 @@ five.figlet()  #   _____
 five.stars()  # *****
 five.bool()   # True
 five.elements()  # ["Metal", "Wood", "Water", "Fire", "Earth"]
+five.senses()  # ["Sight", "Hearing", "Taste", "Smell", "Touch"]
 ```
 
 ### 5 goes multilingual

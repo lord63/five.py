@@ -77,6 +77,10 @@ class Five(object):
     def elements(self):
         """The five basic elements on earth."""
         return ["Metal", "Wood", "Water", "Fire", "Earth"]
+
+    def senses(self):
+        """The five senses that provide data for perception."""
+        return ["Sight", "Hearing", "Taste", "Smell", "Touch"]
     # End of "different sorts of five"
 
     # Start of "kinds of five in many languages",

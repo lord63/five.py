@@ -48,6 +48,8 @@ class TestFive(TestCase):
         assert self.five.bool() == True
         assert self.five.elements() == ["Metal", "Wood", "Water", "Fire",
                                         "Earth"]
+        assert self.five.senses() == ["Sight", "Hearing", "Taste", "Smell",
+                                      "Touch"]
 
     def test_multilingual_five(self):
         assert self.five.arabic() == 'خمسة'
