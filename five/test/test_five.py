@@ -50,9 +50,11 @@ class TestFive(TestCase):
                                         "Earth"]
         assert self.five.senses() == ["Sight", "Hearing", "Taste", "Smell",
                                       "Touch"]
+        assert self.five.circled() == '⑤'
 
     def test_multilingual_five(self):
         assert self.five.afrikaans() == 'vyf'
+        assert self.five.armenian() == 'հինգ'
         assert self.five.arabic() == 'خمسة'
         assert self.five.azerbaijani() == 'beş'
         assert self.five.basque() == 'bost'
@@ -73,6 +75,7 @@ class TestFive(TestCase):
         assert self.five.estonian() == 'viis'
         assert self.five.finnish() == 'viisi'
         assert self.five.french() == 'cinq'
+        assert self.five.georgian() == 'ხუთი'
         assert self.five.german() == 'fünf'
         assert self.five.greek() == 'πέντε'
         assert self.five.hebrew() == 'חמש'

@@ -71,11 +71,13 @@ five.stars()  # *****
 five.bool()   # True
 five.elements()  # ["Metal", "Wood", "Water", "Fire", "Earth"]
 five.senses()  # ["Sight", "Hearing", "Taste", "Smell", "Touch"]
+five.circled()  # ⑤
 ```
 
 ### 5 goes multilingual
 ```python
 five.afrikaans()  # vyf
+five.armenian()  # հինգ
 five.arabic()  # خمسة
 five.azerbaijani()  # beş
 five.basque()  # bost
@@ -96,6 +98,7 @@ five.english()  # Five
 five.estonian()  # viis
 five.finnish()  # viisi
 five.french()  # cinq
+five.georgian()  # ხუთი
 five.german()  # fünf
 five.greek()  # πέντε
 five.hebrew()  # חמש

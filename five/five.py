@@ -82,12 +82,18 @@ class Five(object):
     def senses(self):
         """The five senses that provide data for perception."""
         return ["Sight", "Hearing", "Taste", "Smell", "Touch"]
+
+    def circled(self):
+        return '⑤'
     # End of "different sorts of five"
 
     # Start of "kinds of five in many languages",
     # sorted by alphabetic.
     def afrikaans(self):
         return 'vyf'
+
+    def armenian(self):
+        return 'հինգ'
 
     def arabic(self):
         return 'خمسة'
@@ -148,6 +154,9 @@ class Five(object):
 
     def french(self):
         return 'cinq'
+
+    def georgian(self):
+        return 'ხუთი'
 
     def german(self):
         return 'fünf'
