@@ -1,5 +1,17 @@
+2015.06.14 v0.4.0
+- add more lovely staffs
+    - five.armenian()
+    - five.circled()
+    - five.factors()
+    - five.flipside()
+    - five.georgian()
+    - five.is_prime()
+    - five.lcd()
+- bugfix for five.morse_code()
+- update five.chinese()
+
 2015.06.13 v0.3.0
-- add more funny staff
+- add more funny staffs
     - five.afrikaans()
     - five.bool()
     - five.canadian()
