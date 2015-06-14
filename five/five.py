@@ -91,6 +91,13 @@ class Five(object):
 
     def circled(self):
         return '⑤'
+
+    def flipside(self):
+        """A five on the flipside should be upside down."""
+        return 'ϛ'
+
+    def lcd(self):
+        return ' ---\n|\n --\n   |\n---'
     # End of "different sorts of five"
 
     # Start of "kinds of five in many languages",
@@ -125,8 +132,13 @@ class Five(object):
     def catalan(self):
         return 'cinc'
 
-    def chinese(self):
-        return '五'
+    def chinese(self, case=None):
+        if case == 'pinyin':
+            return 'wǔ'
+        elif case == 'financial':
+            return '伍'
+        else:
+            return '五'
 
     def choctaw(self):
         return 'tahlapi'

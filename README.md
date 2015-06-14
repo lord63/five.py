@@ -74,6 +74,12 @@ five.bool()   # True
 five.elements()  # ["Metal", "Wood", "Water", "Fire", "Earth"]
 five.senses()  # ["Sight", "Hearing", "Taste", "Smell", "Touch"]
 five.circled()  # ⑤
+five.flipside()  # ϛ
+five.lcd()  #  ---
+              |
+               --
+                 |
+              ---
 ```
 
 ### 5 goes multilingual
@@ -89,6 +95,8 @@ five.bulgarian()  # пет
 five.canadian()  # five eh
 five.catalan()  # cinc
 five.chinese()  # 五
+five.chinese('pinyin')  # 'wǔ'
+five.chinese('financial')  # '伍'
 five.choctaw()  # tahlapi
 five.croatian()  # pet
 five.czech()  # pět
