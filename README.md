@@ -48,6 +48,8 @@ five() / five()  # 1
 ```python
 five.fibonacci()  # 5
 five.factorial()  # 120
+five.factors()  # [1, 5]
+five.is_prime()  # True
 ```
 
 ### Different sorts of 5
@@ -56,7 +58,7 @@ five.up_high()  # ⁵
 five.down_low()  # ₅
 five.too_slow()  # 5, with a 555-millisecond delay
 five.roman()  # V
-five.morse_code()  # di-di-di-di-dah
+five.morse_code()  # .....(di-di-di-di-di)
 five.negative()  # -5
 five.loud()  # FIVE
 five.loud('piglatin')  # IVEFAY

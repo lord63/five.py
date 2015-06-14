@@ -31,13 +31,15 @@ class TestFive(TestCase):
     def test_math(self):
         assert self.five.fibonacci() == 5
         assert self.five.factorial() == 120
+        assert self.five.factors() == [1, 5]
+        assert self.five.is_prime() == True
 
     def test_different_sorts_of_five(self):
         assert self.five.up_high() == '⁵'
         assert self.five.down_low() == '₅'
         assert self.five.too_slow() == 5
         assert self.five.roman() == 'V'
-        assert self.five.morse_code() == '....-'
+        assert self.five.morse_code() == '.....'
         assert self.five.negative() == -5
         assert self.five.loud() == 'FIVE'
         assert self.five.loud('piglatin') == 'IVEFAY'

@@ -29,6 +29,12 @@ class Five(object):
     def factorial(self):
         "The factorial of five: 5!"
         return 120
+
+    def factors(self):
+        return [1, 5]
+
+    def is_prime(self):
+        return True
     # End of "math".
 
     def __call__(self):
@@ -49,7 +55,7 @@ class Five(object):
         return 'V'
 
     def morse_code(self):
-        return '....-'
+        return '.....'
 
     def negative(self):
         return -5
